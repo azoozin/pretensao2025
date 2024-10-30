@@ -35,7 +35,7 @@
             responseMessage.style.visibility = "visible"
           })
           .catch((error) => {
-            console.error("Error:", error)
+            console.error("Não foi possível cadastrar no momento, tente novamente mais tarde.", error)
           })
       })
     })
